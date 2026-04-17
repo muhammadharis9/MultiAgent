@@ -1,0 +1,22 @@
+[project]
+name = "multi-agent-researcher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "arxiv>=3.0.0",
+    "duckduckgo-search>=8.1.1",
+    "fastapi>=0.136.0",
+    "langchain>=1.2.15",
+    "langchain-anthropic>=1.4.0",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.1.6",
+    "pydantic>=2.13.1",
+    "python-dotenv>=1.2.2",
+    "reportlab>=4.4.10",
+    "streamlit>=1.56.0",
+    "tavily-python>=0.7.23",
+    "uvicorn>=0.44.0",
+]
